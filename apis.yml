@@ -1,8 +1,19 @@
 aid: cleerly
 name: Cleerly
-description: Cleerly is a company surfaced as a portfolio company of battery-ventures, insight-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Cleerly is a digital healthcare company building an AI-powered platform for
+  the diagnosis and management of coronary artery disease (heart disease). Its
+  software analyzes coronary CT angiography (CCTA) imaging to automatically
+  quantify and characterize atherosclerotic plaque, measure stenosis severity,
+  and stage disease, giving physicians a precise, personalized picture of a
+  patient's heart-disease risk. The goal is to move heart-disease care from
+  symptom-based testing toward direct measurement of plaque, reducing
+  unnecessary invasive procedures while improving diagnostic accuracy. Cleerly
+  operates as an enterprise clinical SaaS delivered to health systems,
+  cardiologists, and imaging centers rather than a public developer API
+  program; it publishes a marketing and clinical-evidence site plus a
+  clinician-facing application (Cleerly Labs) and a public trust center. Cleerly
+  is backed by Battery Ventures and Insight Partners.
 url: https://raw.githubusercontent.com/api-evangelist/cleerly/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +22,32 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cleerly.com/hubfs/cleerly-ico-gradient.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthcare
+- Health
+- Cardiology
+- Heart Disease
+- Medical Imaging
+- Artificial Intelligence
+- Diagnostics
+- Clinical Software
+- Digital Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +56,28 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://cleerlyhealth.com/
+  url: https://cleerly.com/
+- type: Blog
+  url: https://cleerly.com/blog
+- type: PrivacyPolicy
+  url: https://cleerly.com/privacy-policy
+- type: TermsOfService
+  url: https://cleerly.com/terms-conditions
+- type: Support
+  url: https://cleerly.com/contact
+- type: Login
+  url: https://labs.cleerlyhealth.com/login
+- type: TrustCenter
+  url: https://trust.cleerlyhealth.com/
+- type: Compliance
+  url: https://trust.cleerlyhealth.com/
+- type: TrustCenter
+  name: Trust Center (Cleerly)
+  url: security/cleerly-trust-center.yml
+- type: DomainSecurity
+  url: security/cleerly-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

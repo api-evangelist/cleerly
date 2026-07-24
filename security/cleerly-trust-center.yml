@@ -1,0 +1,19 @@
+generated: '2026-07-18'
+method: searched
+source: https://trust.cleerlyhealth.com/
+url: https://trust.cleerlyhealth.com/
+certifications:
+- SOC 2
+- HITRUST
+notes: >-
+  Cleerly operates a public trust center at trust.cleerlyhealth.com listing its
+  security and compliance posture. The page (a JavaScript-rendered application)
+  names SOC 2 and HITRUST, and references an Information Security Incident
+  Response Plan. As a US clinical-imaging platform Cleerly is also a HIPAA
+  covered-entity business associate, though HIPAA is not enumerated as a
+  certification on the trust center. No public responsible-disclosure contact,
+  bug-bounty program, or subprocessor list was surfaced on the trust center at
+  the time of capture.
+evidence:
+- source: https://trust.cleerlyhealth.com/
+  keywords: [soc 2, hitrust, trust center, incident response]
